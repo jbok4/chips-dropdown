@@ -1,0 +1,49 @@
+body {
+  background-color: #fff;
+  font-family: "Akkurat", Arial, sans-serif;
+  margin: 0 auto;
+}
+
+.styled-select {
+  display: inline-block;
+  background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+  overflow: hidden;
+  padding: 6px 12px;
+  margin-right: 30px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 200px;
+}
+
+/* this hides the select dropdown option */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+
+/*  Rounded Corners  */
+.rounded {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+
+/* Colors: Background*/
+.color   { background-color: #E4E4E4; }
+
+/* Colors: Text  */
+.color select   { color: #4A4A4A; }
+
+
