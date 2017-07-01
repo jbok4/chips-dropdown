@@ -6,6 +6,7 @@ body {
 
 .styled-select {
   display: inline-block;
+  /*use a material design icon here*/
   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
   overflow: hidden;
   padding: 6px 12px;
