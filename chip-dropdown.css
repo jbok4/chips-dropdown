@@ -4,13 +4,12 @@ body {
   margin: 0 auto;
 }
 
+
 .styled-select {
   display: inline-block;
-  /*use a material design icon here*/
-  background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
   overflow: hidden;
   padding: 6px 12px;
-  margin-right: 30px;
+  margin-right: 20px;
   border-radius: 25px;
   cursor: pointer;
 }
@@ -20,8 +19,8 @@ body {
    border: none;
    font-size: 14px;
    height: 29px;
-   padding: 5px; /* If you add too much padding here, the options won't show in IE */
-   width: 200px;
+   padding: 6px 12px 6px 2px;
+   width: 160px;
 }
 
 /* this hides the select dropdown option */
@@ -30,6 +29,7 @@ select {
     -moz-appearance: none;
     text-indent: 1px;
     text-overflow: '';
+    cursor: pointer;
 }
 
 
@@ -40,11 +40,12 @@ select {
    border-radius: 20px;
 }
 
+/*  Colors: Background  */
 
-/* Colors: Background*/
-.color   { background-color: #E4E4E4; }
+.color { background-color: #E4E4E4; }
+.color:hover   { background-color: black; }
 
-/* Colors: Text  */
+/*  Colors: Text  */
 .color select   { color: #4A4A4A; }
-
+.color:hover select { color: #fff; }
 
